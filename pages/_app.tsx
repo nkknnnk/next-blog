@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <NextNProgress color='#ff0000' />
     <Navbar />
     <div className="container mx-auto font-sans">
-      <main className='mt-32 pb-32'>
+      <main className='mt-32 md:pb-14 lg:pb-32'>
         <Component {...pageProps} />
       </main>
       <Footer />
